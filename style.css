@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #1A1B21;
+    color: #fff;
+}
+
+a:visited { 
+ text-decoration: none; 
+ color: white; 
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* Header Section */
+
+.profile-pic {
+    width: 100%;
+}
+
+.name {
+    list-style: none;
+    text-align: center;
+    font-size: 36px;
+    align-items: center;
+    font-weight: 700;
+    line-height: 30.26px;
+}
+
+.header-title {
+    color: #F3BF99;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 15.26px;
+    margin-top: -9px;
+}
+
+
+.website {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    line-height: 15.36px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+
+}
+
+.email {
+    background-color: white;
+    color: #161619;
+    padding: 5px 10px;
+    outline: none;
+    width: 130px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+}
+
+.linkedin {
+    background: #5093E2;
+    color: #fff;
+    width: 130px;
+    height: 45px;
+    border-radius: 6px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+
+.fa-linkedin-square {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.fa-envelope {
+    margin-right: 5px;
+}
+
+/* About Section */
+
+
+.about-section {
+    padding: 15px 20px 35px 20px;
+}
+
+.about-me {
+    font-weight: 400;
+    line-height: 25.36px;
+}
+
+.about {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+/* Footer Section */
+
+
+.footer {
+    padding: 10px 20px;
+    background-color: #161619;
+    color: #fff;
+    border-radius: 0px 0px 10px 10px; 
+}
+
+
+.social-icons {
+    background-color: #918E9B;
+    border: none;
+    outline: none;
+    font-size: 26px;
+    border-radius: 6px;
+    margin: 0 auto;
+    
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 50px 10px 50px;
+}
+
+.fa-twitter {
+    padding: 2px 5px;
+}
+
+.fa-facebook {
+    padding: 6px 5px;
+}
+.fa-instagram {
+    padding: 2px 5px;
+}
+.fa-github {
+    padding: 2px 5px;
+}
+
+@media (min-width: 45em) {
+    .profile-pic {
+        width: 500px;
+        align-items: center;
+        margin: 0 auto;
+        border-top: solid 5px #161619;
+    }
+
+    .container {
+        width: 500px;
+        height: 100vh;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        border-left: solid #161619 5px;
+        border-right: solid #161619 5px;
+    }
+}
